@@ -1,0 +1,30 @@
+{
+  "name": "math-log-trig",
+  "version": "1.0.0",
+  "description": "Math log/trig functions for Magician and Daemon classes",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": ["math", "log", "trig", "magician", "daemon"],
+  "author": "eugeshha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.0",
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "babel-loader": "^9.1.0",
+    "core-js": "^3.22.0",
+    "eslint": "^8.57.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.5.0",
+    "mini-css-extract-plugin": "^2.7.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
